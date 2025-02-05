@@ -47,13 +47,13 @@ body {
 }
 
 #container a {
-  color: #880100;
+  color: #BB0100;
   font-weight: bold;
   /* text-decoration:none; */
 }
 
 #container a:hover {
-  color: #660000;
+  color: #880000;
 }
 /*
 #header {
@@ -89,7 +89,7 @@ body {
 }
 
 #navbar li a:hover {
-  color: #660000;
+  color: #880000;
   text-decoration: underline;
 }
 
