@@ -130,6 +130,7 @@ h1 {
 	border-bottom: none;
 }
 #nav  a:hover {
+	border-color: #880000;
 	color:#880000;
 }
 
