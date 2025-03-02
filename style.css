@@ -83,9 +83,7 @@ body {
 	border-radius: 10px;
 	color: white;
 	width: 100%;
-	border-style: inset;
-	border-width: 2px;
-	border-color: #ff0000;
+	border: 2px outset #ff0000;
 	padding-bottom: 17px;
 	padding-top: 17px;
 }
@@ -99,7 +97,7 @@ h1 {
 	font-variant: small-caps;
 	font-family: Arial, Helvetica, sans-serif;
 	background: #323232;
-	border-style: outset;
+	border: 3px outset #ff0000;
 	border-radius:10px;
 	padding-left: 5px;
 	padding-right: 5px;
@@ -128,7 +126,7 @@ h1 {
 	text-decoration:none;
 	color:#ff0000;
 	font-weight:bolder;
-	border-style: outset;
+	border: 3px outset #ff0000;
 	border-bottom: none;
 }
 #nav  a:hover {
