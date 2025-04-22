@@ -142,9 +142,9 @@ h1 {
 
 
 #welcome {
-	display:inline-block;
 	padding-left: 17px;
 	width: 226px;
+	float: left;
 }
 #welcome a {
 	color: #F2F7F8;
@@ -168,7 +168,7 @@ h1 {
 
 
 #content {
-	float: right;
+	float: left;
 	width: 451px;
 	margin-right: 17px;
 	margin-left: 17px;
@@ -223,7 +223,7 @@ h1 {
 }
   
 #bestwith {
-	margin-top: 30px;
+	margin-top: 17px;
 	padding-left: 17px;
 	padding-right: 17px;
 	text-align: center;
@@ -232,4 +232,15 @@ h1 {
 #bestwith img {
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.tooltip {
+	cursor: help;
+	text-decoration: underline dotted;
 }
